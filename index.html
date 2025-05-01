@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego: Esquivar Autos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="gameContainer">
+    <div id="infoPanel">
+      <h1>🚗 Esquiva el Tráfico 🚧</h1>
+      <div class="scoreboard">
+        <span>🎯 Puntos: <span id="score">0</span></span>
+        <span>❤️ Vidas: <span id="lives">3</span></span>
+      </div>
+    </div>
+
+    <div id="gameArea">
+      <div id="player"></div>
+      <div class="enemy"></div>
+    </div>
+
+    <button id="restartBtn">🔁 Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
